@@ -1,0 +1,48 @@
+.header {
+    text-align: center;
+}
+
+.mission {
+    text-align: center;
+}
+
+/* navigation bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#990000;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:#F23A3F;
+  }
+
+  ul {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+
+.mentors {
+    text-align: center;
+    border: solid 2px #F23A3F;
+}
+
+.mentees {
+    text-align: center;
+    border: solid 2px #F23A3F;
+}
